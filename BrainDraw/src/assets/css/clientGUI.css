@@ -1,0 +1,157 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url('NunitoSans-Regular.ttf');
+}
+
+.body {
+    -fx-background-color:  linear-gradient(to right bottom, #8C8C8D, #2166DE);
+}
+
+/* welcome UI */
+.welcome-container {
+    -fx-background-color: #F9F5F3;
+    -fx-background-radius: 15;
+}
+
+#lbWelcome1 {
+    -fx-text-fill: #010101;
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 600;
+    -fx-font-size: 50px;
+    -fx-translate-y: -3;
+}
+
+#lbWelcome2 {
+    -fx-text-fill: #010101;
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 500;
+    -fx-font-size: 25px;
+    -fx-translate-y: -3;
+}
+.welcome-btn {
+    -fx-font-family: NunitoSans;
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(to right bottom, #8C8C8D, #2166DE);
+    -fx-border-radius: 15;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 700;
+    /*-fx-graphic: url("../imgs/right-arrow.png");*/
+    /*-fx-background-size: 18px 18px;*/
+    /*-fx-background-position: right;*/
+    /*transition-duration: 0.3s;*/
+}
+.welcome-btn:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+}
+
+/* login UI */
+.login-panel {
+    -fx-background-color: #F9F5F3;
+    -fx-background-radius: 15;
+}
+
+.login-header {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+    -fx-text-fill: #010101;
+}
+
+.login-btn {
+    -fx-background-color: linear-gradient(to right bottom, #8C8C8D, #2166DE);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: NunitoSans;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+    -fx-border-radius: 15;
+}
+.login-btn:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+}
+
+.signup-btn {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 600;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #7ecfc0;
+}
+.signup-btn:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-cursor: hand;
+}
+
+.account-label {
+    -fx-font-family: NunitoSans;
+    -fx-text-fill: #537d91;
+}
+
+/* Signup UI */
+.match-label {
+    -fx-font-family: NunitoSans;
+    -fx-text-fill: red;
+    visibility: false;
+}
+
+/* Identity UI */
+.check-box {
+    -fx-font-family: NunitoSans;
+    -fx-text-fill: #537d91;
+    -fx-font-weight: 600;
+    -fx-cursor: hand;
+}
+
+.identity-header {
+    -fx-font-family: NunitoSans;
+    -fx-text-fill: #537d91;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+    -fx-font-size: 20px;
+}
+
+.identity-second-header {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 700;
+    -fx-font-size: 15px;
+    -fx-text-fill: #010101;
+}
+
+.config-header {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 800;
+    -fx-font-size: 30px;
+    -fx-text-fill: #010101;
+}
+
+.user-label {
+     -fx-font-family: NunitoSans;
+     -fx-font-weight: 700;
+     -fx-font-size: 20px;
+     -fx-text-fill: #010101;
+ }
+
+.username-label {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+    -fx-text-fill: #537d91;
+}
+
+.wbname-label {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+    -fx-text-fill: #010101;
+}
+
+.input-label {
+    -fx-font-family: NunitoSans;
+    -fx-font-weight: 500;
+    -fx-font-size: 20px;
+    -fx-text-fill: #537d91;
+}
+
